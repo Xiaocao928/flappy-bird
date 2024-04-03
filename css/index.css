@@ -5,7 +5,7 @@
   height: 600px;
   border: 2px solid;
   margin: 50px auto;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 /* 背景图的样式 */
 #game .sky {
@@ -40,4 +40,23 @@
   top: 150px;
   background-position: -113px -10px;
   z-index: 1;
+}
+/* 水管的样式 */
+
+#game .pipeup{
+  background: url('../img/pipeDown.png') no-repeat left bottom;
+  width: 52px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#game .pipedown{
+  background: url('../img/pipeUp.png') no-repeat;
+  width: 52px;
+  height: 200px;
+  position: absolute;
+  bottom: 112px;
+  right: 0;
 }
